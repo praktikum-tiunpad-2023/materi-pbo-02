@@ -6,7 +6,7 @@ layout: center
 
 <div class='text-base text-justify mt-4'>
 
-Dalam bahasa pemrograman berorientasi objek apapun termasuk Java dan C#, konsep modularitas menjadi sebuah standar untuk membuat setiap modul bersifat individual. Hal ini mengizinkan komunikasi antar modul yang lebih mudah.
+Dalam bahasa pemrograman berorientasi objek apapun termasuk Java dan C++, konsep modularitas menjadi sebuah standar untuk membuat setiap modul bersifat individual. Hal ini mengizinkan komunikasi antar modul yang lebih mudah.
 
 Library yang sering kita sertakan ketika membuat suatu program juga dapat disebut sebagai module. Maka dari itu, modularitas ini sangat berguna terutama untuk bahasa pemrograman berorientasi objek.
 
