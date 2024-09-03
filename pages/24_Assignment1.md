@@ -8,13 +8,12 @@ layout: center
 
 <div class='grid grid-cols-2 gap-x-3'>
 
-<div>
-
-Buat sebuah program **kalkulator sederhana** yang menggunakan 2 package. Package pertama bernama “io”, package kedua bernama “util”.
+<div class="mt-8">
+Buat sebuah program <b>kalkulator</b> sederhana yang menggunakan 2 package. Package pertama bernama “io”, package kedua bernama “util”.
 
 Dalam package “io” buat sebuah class yang memiliki method-method untuk **input dan output**.
 
-Dalam package “util” buat sebuah class yang memiliki method-method untuk **operasi aritmatika** (tambah, kurang, kali, bagi) bilangan bulat.
+Dalam package “util” buat sebuah class yang memiliki method-method untuk **operasi aritmatika** (tambah, kurang, kali, bagi, dan modular) bilangan <span style="color: red;">bulat</span>.
 
 </div>
 
@@ -22,8 +21,8 @@ Dalam package “util” buat sebuah class yang memiliki method-method untuk **o
 <span class='text-xs text-white font-extrabold uppercase text-yellow'>Input</span>
 <div class='flex flex-col mb-2'>
 <span><span class='italic'>num1</span> : int (operan pertama)</span>
-<span><span class='italic'>num2</span> : int (operan kedua)</span>
 <span><span class='italic'>op</span> : char (operator “+”,” -”, “*”,  atau “/”)</span>
+<span><span class='italic'>num2</span> : int (operan kedua)</span>
 </div>
 <span class='text-xs text-white font-extrabold uppercase text-yellow'>Output</span>
 <span>Hasil perhitungan antara num1 dan num2 menggunakan op</span>
@@ -31,13 +30,11 @@ Dalam package “util” buat sebuah class yang memiliki method-method untuk **o
 <div class='mt-4 flex flex-col mb-2'>
 Sampel Input
 ```bash
-8
-4
-/
+8 / 4
 ```
 Sampel Output
 ```bash
-2
+= 2
 ```
 
 </div>

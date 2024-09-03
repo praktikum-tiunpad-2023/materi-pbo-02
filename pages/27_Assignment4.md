@@ -6,21 +6,21 @@ layout: center
 
 <br>
 
-Buat 2 buah method untuk menambahkan 2 buah bilangan. Gunakan overloading untuk tipe data Integer dan Float.
+Buat 2 buah method untuk menghitung luas 2 buah persergi. Gunakan overloading untuk tipe data Integer dan Float.
 
 <div class='grid grid-cols-[0.5fr_0.8fr]'>
 <div class='grid grid-cols-[0.2fr_1.5fr] gap-x-5 items-center text-sm'>
 <span class='text-xs text-white font-extrabold uppercase text-yellow'>Input</span>
 <div class='flex flex-col mb-2'>
-    <span><span class='italic'>num1</span> : int</span>
-    <span><span class='italic'>num2</span> : int</span>
-    <span><span class='italic'>num3</span> : float</span>
-    <span><span class='italic'>num4</span> : float</span>
+    <span><span class='italic'>Sisi 1 Persergi (A)</span> : int</span>
+    <span><span class='italic'>Sisi 2 Persergi (A)</span> : int</span>
+    <span><span class='italic'>Sisi 1 Persergi (B)</span> : float</span>
+    <span><span class='italic'>Sisi 2 Persergi (B)</span> : float</span>
 </div>
 <span class='text-xs text-white font-extrabold uppercase text-yellow'>Output</span>
 <div class='flex flex-col mb-2'>
-    <span><span class='italic'>result1</span> : int</span>
-    <span><span class='italic'>result2</span> : float</span>
+    <span><span class='italic'>Luas Persegi (A)</span> : int</span>
+    <span><span class='italic'>Luas Persegi (B)</span> : float</span>
 </div>
 </div>
 <div class='grid grid-cols-[0.2fr_1.5fr] gap-x-3 items-center text-sm'>
@@ -29,16 +29,19 @@ Buat 2 buah method untuk menambahkan 2 buah bilangan. Gunakan overloading untuk 
 
 Sampel Input
 ```bash
-1
-2
-2.5
-1.5
+Persegi A
+Sisi 1 : 2
+Sisi 2 : 10
+
+Persegi B
+Sisi 1 : 6.5
+Sisi 2 : 4.5
 ```
 
 Sampel Output
 ```bash
-3
-4.0
+Luas Persegi A : 20
+Luas Persegi B : 29.25
 ```
 
 </div>
