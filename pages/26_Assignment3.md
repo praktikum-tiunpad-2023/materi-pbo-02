@@ -12,7 +12,7 @@ layout: center
 
 Buat class “Rekening” yang mempunyai default balance = 0, kemudian buatlah 3 (tiga) public method (selain constructor)
 
-- getBalance() : _float_
+- getBalance() : _int_
 - deposit() : _void_
 - withdraw() : _void_
 
